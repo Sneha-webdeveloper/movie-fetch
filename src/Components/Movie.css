@@ -1,0 +1,83 @@
+.body{
+    background-image: linear-gradient( to right ,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.378)), url(https://img.freepik.com/free-photo/man-watching-movie-theater-seats-spectacle-generative-ai_188544-7929.jpg?w=740&t=st=1705650475~exp=1705651075~hmac=f9a6dc988396300f424bfa3e4d3a5bb20083edfcdcad8969460f418186fe17b5);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 150px;
+}
+
+
+.header{
+    margin-bottom: 50px;
+ color:rgb(44, 170, 179);
+ margin-top: -50px;
+}
+Button{
+    background:linear-gradient(to right ,cyan,green);
+    
+    
+   color: white;
+  
+   
+  
+}
+Button:hover{
+    background:linear-gradient(to left ,cyan,rgba(0, 128, 0, 0.689)); 
+    color: black;
+}
+input{
+    width: 70%;
+   
+}
+input::placeholder{
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#percent{
+    display: inline-block;
+    box-shadow: 0px 5px 5px 4px rgb(0, 255, 200), 0 3px 0 10px rgb(6, 6, 6);
+   
+    border-radius: 50%;
+    padding: 5px;
+}
+.symbols{
+    margin: 10px;
+    padding: 12px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+
+}
+@media screen and (max-width:760px) {
+    body{
+        background-color: black;
+    }
+    .container{
+        width: 100%;
+    }
+    Col{
+        width: 100%;
+    }
+    p{width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #symb{
+        
+ display: grid;
+     
+       width: 80px;
+       text-align: center;
+    }
+    .header{
+        width: 100%;
+    }
+}
